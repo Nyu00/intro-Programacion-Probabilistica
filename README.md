@@ -48,3 +48,17 @@ En este ejemplo tenemos visualmente mostrando en un circulo azul TODOS los music
 Ahora en ese ejemplo se muestra las personas que ademas de ser musicos y usar drogas tambien juegan pokemon
 
 Un punto muy importante a tener en cuenta es que cada vez que le agregagos una condicional a algo siempre resa menor o menos probable
+
+# Clase 2
+
+En esta clase hablaremos sobre la probabilidad condicional, Pero antes de continuar necesitamos entender un par de cosas
+
+Calcular la probabilidad de un evento no es nada mas que la cantidad de veces que ocurre un evento dividido por la cantidad de enventos posibles
+
+![Eventosx](./src/calc-probabilidad.jpg)
+
+Esto nos sirve para un tipo de probabilidad muy especifica como la que hay en los jugos de azar o lanzar una moneda al aire, esta se llama [Probabilidad independiente](#)  osea que los eventos nos estan relacionados unos con los otros
+
+Lo malo es que no suelen llegar a ser muy utiles
+
+Por eso utilizamos la [Probabilidad condicional](#)
