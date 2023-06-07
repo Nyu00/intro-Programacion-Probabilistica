@@ -1,6 +1,8 @@
 # intro-Programacion-Probabilistica
 
-![Texto alternativo](./src/IPP-img.jpg)
+<p align="center">
+  <img src="./src/IPP-img.jpg" alt="Probabilistic Programming">
+</p>
 
 La programación probabilística a día de hoy tiene muchos usos, investigación científica, medicina, etc
 
