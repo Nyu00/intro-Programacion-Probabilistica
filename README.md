@@ -1,20 +1,24 @@
 # intro-Programacion-Probabilistica
 
+![Texto alternativo](IPP-img.jpg)
+
 La programación probabilística a día de hoy tiene muchos usos, investigación científica, medicina, etc
 
 Una de las grandes diferencias que existen entre la programación probabilística, es que la programacion probabilistica utilizamos modelos probabilisticos
 
-- [Programación probabilística](#Programación-probabilística)
-    - [Introducción a la programación probabilística](#Introducción-a-la-programación-probabilística)
-    - [Probabilidad condicional](#Probabilidad-condicional)
+- [Modelos probabilisticos](#Modelos probabilisticos])
+    - [Regresión lineal bayesiana](#Regresión lineal bayesiana)
+    - [Redes Bayesianas](#Redes Bayesianas)
     - [Teorema de Bayes](#Teorema-de-Bayes)
-    - [Ejercicio de Bayes en código](#Ejercicio-de-Bayes-en-código)
-    - [Aplicaciones del Teorema de Bayes](#Aplicaciones-del-Teorema-de-Bayes)
-- [Mentiras estadísticas](#Mentiras-estadísticas)
-    - [Garbage in, garbage out](#Garbage-in,-garbage-out)
-    - [Imágenes engañosas](#Imágenes-engañosas)
-    - [Cum Hoc Ergo Propter Hoc](#Cum-Hoc-Ergo-Propter-Hoc)
-    - [Prejuicio en el muestreo](#Prejuicio-en-el-muestreo)
-    - [Falacia del francotirador de Texas](#Falacia-del-francotirador-de-Texas)
-    - [Porcentajes confusos](#Porcentajes-confusos)
-    - [Falacia de regresión](#Falacia-de-regresión)
+    - [Modelos ocultos de Markov HMM](#Modelos ocultos de Markov HMM)
+    - [Procesos de Dirichlet](#Procesos de Dirichlet)
+
+
+Este tipo de programacion es tan importante que  existen lenguajes especificos para programas de este tipo de indole al igual que librerias
+
+- [Lenguajes probabilisticos](#)
+    - [Stan](#)
+    - [Pyro](#)
+    - [Church](#)
+    - [Anglican](#)
+    - [WeebPPL](#)
