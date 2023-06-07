@@ -4,7 +4,17 @@ La programación probabilística a día de hoy tiene muchos usos, investigación
 
 Una de las grandes diferencias que existen entre la programación probabilística, es que la programacion probabilistica utilizamos modelos probabilisticos
 
-• [Clasificación](#Clasificación)
-    - [Introducción a la clasificación](#Introducción-a-la-clasificación)
-    - [Clasificación K-nearest neighbors](#Clasificación-K-nearest-neighbors)
-    - [Otras tecnicas de clasificación](#Otras-tecnicas-de-clasificación)
+- [Programación probabilística](#Programación-probabilística)
+    - [Introducción a la programación probabilística](#Introducción-a-la-programación-probabilística)
+    - [Probabilidad condicional](#Probabilidad-condicional)
+    - [Teorema de Bayes](#Teorema-de-Bayes)
+    - [Ejercicio de Bayes en código](#Ejercicio-de-Bayes-en-código)
+    - [Aplicaciones del Teorema de Bayes](#Aplicaciones-del-Teorema-de-Bayes)
+- [Mentiras estadísticas](#Mentiras-estadísticas)
+    - [Garbage in, garbage out](#Garbage-in,-garbage-out)
+    - [Imágenes engañosas](#Imágenes-engañosas)
+    - [Cum Hoc Ergo Propter Hoc](#Cum-Hoc-Ergo-Propter-Hoc)
+    - [Prejuicio en el muestreo](#Prejuicio-en-el-muestreo)
+    - [Falacia del francotirador de Texas](#Falacia-del-francotirador-de-Texas)
+    - [Porcentajes confusos](#Porcentajes-confusos)
+    - [Falacia de regresión](#Falacia-de-regresión)
