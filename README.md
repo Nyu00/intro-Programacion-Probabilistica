@@ -55,10 +55,19 @@ En esta clase hablaremos sobre la probabilidad condicional, Pero antes de contin
 
 Calcular la probabilidad de un evento no es nada mas que la cantidad de veces que ocurre un evento dividido por la cantidad de enventos posibles
 
-![Eventosx](./src/calc-probabilidad.jpg)
+<img src="./src/calc-probabilidad.jpg" alt="DEventosx" style="width: 300px; height: auto;">
+
 
 Esto nos sirve para un tipo de probabilidad muy especifica como la que hay en los jugos de azar o lanzar una moneda al aire, esta se llama [Probabilidad independiente](#)  osea que los eventos nos estan relacionados unos con los otros
+
+Asi es es la formula de probailidad independienente de lazar una moneda y qe salgan dos cruzes
+
+![Eventos independientes](./src/eventos-independientes.jpg)
 
 Lo malo es que no suelen llegar a ser muy utiles
 
 Por eso utilizamos la [Probabilidad condicional](#)
+
+Formula para resolver probabilidades condicionales es:
+
+![]()
