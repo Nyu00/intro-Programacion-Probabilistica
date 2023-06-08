@@ -75,7 +75,7 @@ Formula para resolver probabilidades condicionales es:
 
 Con el ejemplo de Juan se puede demostrar como :
 
-<img src="./src/Formula-juan.jpg" alt="Formula condicional Juan" style="width: 500px; height: auto;">
+<img src="./src/formula-juan.jpg" alt="Formula condicional Juan" style="width: 500px; height: auto;">
 
 Esta formula se leeria como :
 
