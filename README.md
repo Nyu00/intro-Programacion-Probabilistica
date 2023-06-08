@@ -75,7 +75,7 @@ Formula para resolver probabilidades condicionales es:
 
 Con el ejemplo de Juan se puede demostrar como :
 
-<img src="./src/formula-juan.jpg" alt="Formula condicional Juan" style="width: 500px; height: auto;">
+<img src="./src/formula-juan.jpg" alt="Formula condicional Juan" style="width: 550px; height: auto;">
 
 Esta formula se leeria como :
 
@@ -85,3 +85,19 @@ Esta tipo de prbabilidad es utilizada unicamente cuando un evento depende de otr
 
 ## Clase 3
 
+### Teorema de bayes
+
+![teoremadebayes ](./src/teoremadebayes.jpg)
+
+El teorema de Bayes establece una relación entre las probabilidades condicionales P(A|B) y P(B|A), es decir, la probabilidad de que ocurra un evento A dado que ha ocurrido un evento B, y viceversa. La fórmula del teorema de Bayes es la siguiente:
+
+P(A|B) = (P(B|A) * P(A)) / P(B)
+
+Donde:
+
+P(A|B) es la probabilidad de que ocurra el evento A dado que ha ocurrido el evento B.
+P(B|A) es la probabilidad de que ocurra el evento B dado que ha ocurrido el evento A.
+P(A) y P(B) son las probabilidades de que ocurran los eventos A y B, respectivamente.
+El teorema de Bayes es especialmente útil cuando se trabaja con datos incompletos o evidencia parcial, y se utiliza ampliamente en diversos campos, como la inteligencia artificial, la estadística, la medicina, la economía y más. Es una herramienta fundamental para razonar sobre probabilidades y actualizar nuestras creencias a medida que obtenemos nueva información.
+
+## Clase 4
