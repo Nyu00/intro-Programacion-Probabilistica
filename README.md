@@ -62,7 +62,7 @@ Esto nos sirve para un tipo de probabilidad muy especifica como la que hay en lo
 
 Asi es es la formula de probailidad independienente de lazar una moneda y qe salgan dos cruzes
 
-<img src="./src/eventos-independientes.jpg" alt="Eventos independientes" style="width: 300px; height: auto;">
+<img src="./src/eventos-independientes.jpg" alt="Eventos independientes" style="width: 400px; height: auto;">
 
 
 Lo malo es que no suelen llegar a ser muy utiles
@@ -71,4 +71,17 @@ Por eso utilizamos la [Probabilidad condicional](#)
 
 Formula para resolver probabilidades condicionales es:
 
-![]()
+<img src="./src/Formula-condiconal.jpg" alt="Formula condicional" style="width: 400px; height: auto;">
+
+Con el ejemplo de Juan se puede demostrar como :
+
+<img src="./src/Formula-juan.jpg" alt="Formula condicional Juan" style="width: 500px; height: auto;">
+
+Esta formula se leeria como :
+
+La probabilidad de que Juan use Drogas es igual a la probabilidad de que sea musico multiplicado por la probabilidad de use drogas dado que es musico mas la probabilida de que no sea musico multiplicado por la probabilidad que use drogas dado que no es musico
+
+Esta tipo de prbabilidad es utilizada unicamente cuando un evento depende de otro evento
+
+## Clase 3
+
