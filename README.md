@@ -137,7 +137,13 @@ Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va s
 ![Análisis de síntomas](./src/cancer-sintomas.jpg)
 
 ```py
+
 def calc_bayes(prior_A, prob_B_since_A, prob_B):
+
+    #presentacion en codigo de a P(a) P(b|a)
+    #                           -------------
+    #                                P(b)
+
     return(prior_A * prob_B_since_A)/ prob_B
 
 if __name__ == '__main__':
