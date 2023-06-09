@@ -91,7 +91,7 @@ Esta tipo de prbabilidad es utilizada unicamente cuando un evento depende de otr
 
 El teorema de Bayes establece una relación entre las probabilidades condicionales P(A|B) y P(B|A), es decir, la probabilidad de que ocurra un evento A dado que ha ocurrido un evento B, y viceversa. La fórmula del teorema de Bayes es la siguiente:
 
-P(A|B) = (P(B|A) * P(A)) / P(B)
+#### _P(A|B) = (P(B|A) * P(A)) / P(B)_
 
 Donde:
 
@@ -101,3 +101,34 @@ P(A) y P(B) son las probabilidades de que ocurran los eventos A y B, respectivam
 El teorema de Bayes es especialmente útil cuando se trabaja con datos incompletos o evidencia parcial, y se utiliza ampliamente en diversos campos, como la inteligencia artificial, la estadística, la medicina, la economía y más. Es una herramienta fundamental para razonar sobre probabilidades y actualizar nuestras creencias a medida que obtenemos nueva información.
 
 ## Clase 4
+
+Una vez entendido el Teorema de bayes llega el momento de entender y ponerle nombre a las secciones de nuestra formula
+
+### _P(a)_
+
+Prior: esta variable se pentiende como el conomiento previo que tenemos de ciertas situaciones o "Hipotesis" antes de recolectar evidencia
+
+### _P(a|b)_
+
+Posterior: esta variable la utilizamos despues de tener la evidencia de x como actualizamos nuestras creencias
+
+<img src="./src/Formula-condiconal.jpg" alt="Formula condicional" style="width: 400px; height: auto;">
+
+Likelyhood: y esta formula la podemos entender como cual es la probabilidad de que esta probabilidad condicional se cumpla
+
+--------------------------------------------
+
+Tambien una manera mas facil de entender es tipo de formula un de una manera mas visual como un ecosograma
+
+En este ecosograma podemos calcular la probabilidad de que un proyecto sea del estado, sabiendo que acabó fuera del plazo
+
+<img src="./src/ecosograma.jpg" alt="ecosograma ejempolo" style="width: 400px; height: auto;">
+
+##### Notas :
+
+La probabilidad no necesariamente es matematica de la aleatoriedad sino la matematica de las proporciones
+
+Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va suceder
+
+## Clase 5 
+
