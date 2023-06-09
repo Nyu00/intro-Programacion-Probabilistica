@@ -112,7 +112,7 @@ Prior: esta variable se pentiende como el conomiento previo que tenemos de ciert
 
 Posterior: esta variable la utilizamos despues de tener la evidencia de x como actualizamos nuestras creencias
 
-<img src="./src/Formula-condiconal.jpg" alt="Formula condicional" style="width: 400px; height: auto;">
+### _P(b) = P(a) P(b|a) + P(¬a) P(b|¬a)_
 
 Likelyhood: y esta formula la podemos entender como cual es la probabilidad de que esta probabilidad condicional se cumpla
 
@@ -136,7 +136,7 @@ Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va s
 
 ![Análisis de síntomas](./src/cancer-sintomas.jpg)
 
-```
+```py
 def calc_bayes(prior_A, prob_B_since_A, prob_B):
     return(prior_A * prob_B_since_A)/ prob_B
 
