@@ -37,7 +37,7 @@ Ahora, si te preguntaran hipoteticamente que es mas probable, ¿Que es mas proba
 
 La mayoria de las personas hubieran dicho que Juan es musico y ademas usa drogas.
 
-Pero algo que tenemos que empezar a entender es que cuando utilizamos la palabra [y](#) hace que la probabilidad de que eso cierto, siempre será menor
+Pero algo que tenemos que empezar a entender es que cuando utilizamos la palabra [Y](#) hace que la probabilidad de que eso cierto, siempre será menor
 
 <img src="./src/musico-drogas.jpg" alt="Probabilidad de ser Muisco y usar drogas" style="width: 300px; height: auto;">
 
@@ -176,4 +176,16 @@ There's a 9.09% chance that you have cancer since a have symptoms
 Tambien esto es una manera visual de mostrar lo:
 ![Notaciones](./src/anotacionesTeoremadebayes.jpg)
 
-## Clase 6
+## Clase 7
+
+### Garbage in, garbage out (GIGO)
+
+GIGO es un principio que informatico que hace referecia que si le das un input "Basura" a tu programa, algoritmo, etc de dará como output Basura
+
+Para poder envitar errores de 3° nivel como GIGO devemos tomar en considerancion estos puntos
+
+-   La calidad de nuestros datos en igual de        fundamental que la precisión de nuestro cómputos
+
+-   Cuando los datos son errados, aunque tengamos un cómputo prístino nuestro resultados serán erróneos
+
+-   En pocas palabras: con datos errados las conclusiones serán erradas
