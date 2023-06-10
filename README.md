@@ -231,3 +231,11 @@ La persona podria oensar erroneamente de todo eso ocurrio gracias al amuleto de 
 Pero en realidad, es probable que haya otros factores involucrados en estos hechos, como **el esfuerzo, la habilidad, el azar o circunstancias favorables**
 
 ## Clase 10
+
+### Prejuicio en el muestreo
+
+también conocido como sesgo de muestreo puede distorsionar los resultados y conducir a conclusiones incorrectas o poco representativas.
+
+Imagina que se está realizando una encuesta política en un x país, las personas responsables de la encuesta hacen la encuesta únicamente en una zona urbana muy poblada, sin tomar en cuenta las poblaciones más rurales, como resultado la muestra será sesgada y tendrá una representación pobre tomando en consideración la población total
+
+## Clase 11
