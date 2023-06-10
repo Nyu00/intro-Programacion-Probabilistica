@@ -77,8 +77,8 @@ Con el ejemplo de Juan se puede demostrar como :
 
 ### _P(Drogas) = P(Musico) P(Drogas|Musico) + P(¬Musico) P(Drogas|¬Musico)_
 
-##### "|" se lee como dado que
-##### "¬" se lee no o negacion
+###### "|" se lee como dado que
+###### "¬" se lee no o negacion
 
 Esta formula se leeria como :
 
@@ -213,6 +213,21 @@ Esto engaño ocurre cuando se juega con las escalas porque puede hacer que algun
 
 #### Nota:
 
-FIJA TE EN LAS ESCALAS
+FIJATE EN LAS ESCALAS
 
 ## Clase 9
+
+### Cum Hoc Ergo Propter Hoc
+
+Del latin **"con esto, por lo tanto, a causa de esto"**
+hace referencia a la falacia de correlacion causalidad
+
+Esta falacia se comete cuando se asume erróneamente que debido a que dos eventos ocurren juntos o se correlacionan, uno debe ser la causa del otro. Es un error lógico confundir la correlación con la causalidad.
+
+Como por ejemplo, supongamos que una persona tiene un **amuleto de la suerte** y a lo largo de un mes vive una serie de evento en su vida como; conseguir un **ascenso en el trabajo, ganar la loteria y encontrar el amor**.
+
+La persona podria oensar erroneamente de todo eso ocurrio gracias al amuleto de la suerte y llegar a la conclusion que el **amuleto da buena fortuna**
+
+Pero en realidad, es probable que haya otros factores involucrados en estos hechos, como **el esfuerzo, la habilidad, el azar o circunstancias favorables**
+
+## Clase 10
