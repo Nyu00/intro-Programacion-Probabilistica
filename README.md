@@ -136,28 +136,44 @@ Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va s
 
 ![Análisis de síntomas](./src/cancer-sintomas.jpg)
 
+Tomando como base de apoyo los date que parecen el la imagen podemos hacer un calculo bastante preciso segun los datos de la imagen usando el teorema de bayes
+
 ```py
 
 def calc_bayes(prior_A, prob_B_since_A, prob_B):
 
-    #presentacion en codigo de a P(a) P(b|a)
-    #                           -------------
-    #                                P(b)
+    #Representacion en codigo de a 
+    #         P(a) P(b|a)
+    #        -------------
+    #             P(b)
 
     return(prior_A * prob_B_since_A)/ prob_B
 
 if __name__ == '__main__':
-    prob_cancer = 1 / 100000
-    prob_no_cancer = 1 - prob_cancer
-
-    prob_symptoms_since_cancer = 1
-    prob_symptoms_since_no_cancer = 10 / 99999
+    prob_cancer = 1 / 100000 # Probabilidad de realmente tener cancer
+    prob_no_cancer = 1 - prob_cancer #Probabilidad de no tener cancer
+    prob_symptoms_since_cancer = 1 #Probabilidad de tener sintomas debido a que tengo cancer
+    prob_symptoms_since_no_cancer = 10 / 99999 #Probabilidad de tener un sintoma dado que no tengo cancer
 
     prob_symptoms = (prob_symptoms_since_cancer * prob_cancer) + (prob_symptoms_since_no_cancer * prob_no_cancer)
 
     prob_cancer_since_sintomas = calc_bayes(prob_cancer, prob_symptoms_since_cancer, prob_symptoms)
 
-    print(f"There's a {round(prob_cancer_since_sintomas,4) * 100}% chance that you have cancer")
+    print(f"There's a {round(prob_cancer_since_sintomas,4) * 100}% chance that you have cancer since a have symptoms")
 
+    #P(a) = Tener cancer
+    #P(b) = Tener sintomas de cancer
 
 ```
+
+```bash
+# Ejecutamos nuestro programa
+
+# Y este sera nuestro resultado.
+There's a 9.09% chance that you have cancer since a have symptoms
+```
+
+Tambien esto es una manera visual de mostrar lo:
+![Notaciones](./src/anotacionesTeoremadebayes.jpg)
+
+## Clase 6

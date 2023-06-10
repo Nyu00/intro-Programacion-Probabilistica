@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     prob_cancer_since_sintomas = calc_bayes(prob_cancer, prob_symptoms_since_cancer, prob_symptoms)
 
-    print(f"There's a {round(prob_cancer_since_sintomas,4) * 100}% chance that you have cancer")
+    print(f"There's a {round(prob_cancer_since_sintomas,4) * 100}% chance that you have cancer since a have symptoms")
 
 
     
