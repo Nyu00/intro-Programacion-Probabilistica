@@ -239,3 +239,17 @@ también conocido como sesgo de muestreo puede distorsionar los resultados y con
 Imagina que se está realizando una encuesta política en un x país, las personas responsables de la encuesta hacen la encuesta únicamente en una zona urbana muy poblada, sin tomar en cuenta las poblaciones más rurales, como resultado la muestra será sesgada y tendrá una representación pobre tomando en consideración la población total
 
 ## Clase 11
+
+### La falacia del francotirador
+
+La falacia del francotirador es un error logivo que implica la sobreinterpretación de patrones aleatorios, se basa en un situacion hipotetica en la que un francofirador dispara totalmente aleatorio a una pared de la granja cuando se le acaban las balas va y pinta una diana donde hay un mayor cumulo de huecos de disparos
+
+Este es el ejemplo pero tambien podemos tomar otro por ejemplo como este :
+
+Imagina que alguien está buscando evidencia de poderes psíquicos y decide llevar a cabo una prueba. Invita a varias personas a participar en un experimento en el que deben intentar adivinar qué carta está boca abajo de un mazo. Después de varias rondas de intentos, una de las personas logra adivinar correctamente varias veces seguidas.
+
+El investigador, al observar estos resultados aparentemente impresionantes, concluye que esta persona tiene habilidades psíquicas y puede predecir el futuro
+
+En resumen, esta falacia intenta busca una relación entre dos o más datos para buscar una correlación inexistente entre los mismos y disfrazar la información para generar conclusiones en el público erradas
+
+## Clase 12
