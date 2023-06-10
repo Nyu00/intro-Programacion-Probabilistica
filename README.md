@@ -27,7 +27,7 @@ Este tipo de programacion es tan importante que  existen lenguajes especificos p
 
 Uno de los mejores ejemplo que podemos usar para desarrolar nuestro pensamiento probabilistico es:
 
-## Juan el Musico
+### Juan el Musico
 
 Juan es un musico que le gusta desvelarse, el rock and rol, el heavy metal, y esta de parranda de lunes a sabado
 
@@ -49,7 +49,7 @@ Ahora en ese ejemplo se muestra las personas que ademas de ser musicos y usar dr
 
 Un punto muy importante a tener en cuenta es que cada vez que le agregagos una condicional a algo siempre resa menor o menos probable
 
-# Clase 2
+## Clase 2
 
 En esta clase hablaremos sobre la probabilidad condicional, Pero antes de continuar necesitamos entender un par de cosas
 
@@ -71,11 +71,14 @@ Por eso utilizamos la [Probabilidad condicional](#)
 
 Formula para resolver probabilidades condicionales es:
 
-<img src="./src/Formula-condiconal.jpg" alt="Formula condicional" style="width: 400px; height: auto;">
+### _P(b) = P(a) P(b|a) + P(¬a) P(b|¬a)_
 
 Con el ejemplo de Juan se puede demostrar como :
 
-<img src="./src/formula-juan.jpg" alt="Formula condicional Juan" style="width: 550px; height: auto;">
+### _P(Drogas) = P(Musico) P(Drogas|Musico) + P(¬Musico) P(Drogas|¬Musico)_
+
+##### "|" se lee como dado que
+##### "¬" se lee no o negacion
 
 Esta formula se leeria como :
 
