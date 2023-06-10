@@ -189,3 +189,27 @@ Para poder envitar errores de 3° nivel como GIGO devemos tomar en considerancio
 -   Cuando los datos son errados, aunque tengamos un cómputo prístino nuestro resultados serán erróneos
 
 -   En pocas palabras: con datos errados las conclusiones serán erradas
+
+## Clase 8
+
+### Imagenes engañosas
+
+Infelizmente la probabilistica sí puede utizarse para mentir o para hacer que otras personas llegen a conclusiones que no son exactas, una de las maneras de egaño mas usadas son por medio de las imagenes 
+
+como por ejemplo es este grafico de elecciones Venezolanas 
+
+![Maduro vs Capriles](./src/caprilesvsmaduro.jpg)
+
+Ya ese ejemplo es un bastante exagerado pero da para entender 
+
+Tambien existen otros ejemplo mas acercados a la realidad pero igualmente engañosos 
+
+![Trump vs Hilary](./src/imagen-enga%C3%B1osa.jpg)
+
+Esto engaño ocurre cuando se juega con las escalas porque puede hacer que algunas personas llegen a conclusiones incorrectas
+
+#### Nota:
+
+FIJA TE EN LAS ESCALAS
+
+## Clase 9
