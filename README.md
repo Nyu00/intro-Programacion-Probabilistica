@@ -282,4 +282,14 @@ El estudiante, al ver su alta calificación, llega a la conclusión de que su nu
 
 La falacia de regresión ocurre cuando se asume erróneamente que un evento extremo o inusual en una serie de datos es indicativo de un cambio permanente o significativo en esa serie. En este caso, la alta calificación en el último examen podría haber sido simplemente una anomalía o un golpe de suerte.
 
+Una cosa a tomar en cuenta es que estos no son los unicos errores de pensamiento probabilistico pero si son unos de lo mas comunes pero para enriqueser un poco estas notas aqui dejo unas cuantas mas :
+
+-   Falacia del jugador: Es el error de creer que los resultados de eventos aleatorios están influenciados por eventos previos. Por ejemplo, creer que después de lanzar una moneda y obtener cara varias veces seguidas, la probabilidad de obtener cruz en el próximo lanzamiento es más alta. En realidad, cada lanzamiento es independiente y la probabilidad sigue siendo del 50% en cada lanzamiento.
+
+-   Sesgo de disponibilidad: Ocurre cuando se estima la probabilidad de un evento basándose en la facilidad con la que se pueden recordar ejemplos o información relacionada. Por ejemplo, si se escuchan noticias sobre un aumento en los casos de robo, es posible que se sobreestime la probabilidad de ser víctima de un robo, aunque los robos sean eventos relativamente raros en general.
+
+-   Ilusión de agrupamiento: Es el error de creer que los eventos aleatorios se distribuyen uniformemente en el tiempo. Por ejemplo, si en un casino se observan ráfagas de victorias en la ruleta, es posible que se crea que hay algún patrón o sistema detrás de ellas, cuando en realidad es simplemente una fluctuación normal en los resultados aleatorios.
+
+-   Efecto del tamaño de la muestra: Es el error de ignorar el tamaño de la muestra al considerar las probabilidades. Si se toma una muestra pequeña, es más probable que los resultados sean menos representativos de la población en general. Es importante tener en cuenta el tamaño de la muestra al interpretar resultados y no sacar conclusiones basadas en muestras pequeñas.
+
 ## Clase 14
