@@ -269,3 +269,17 @@ Si ahora nos percatamos los porcentajes estaban ciertos, pero con solo los porce
 Conclusiones, no te dejes llevar por los porcentajes tan facilmente, se escéptico
 
 ## Clase 13
+
+### Falacia de regresión
+
+-   Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión etc.
+
+-   Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
+
+Supongamos que un estudiante universitario está estudiando para un examen final. Durante el semestre, el estudiante ha estado obteniendo calificaciones bastante bajas en los exámenes parciales, pero después de mucho esfuerzo, logra obtener una calificación muy alta en el último examen.
+
+El estudiante, al ver su alta calificación, llega a la conclusión de que su nuevo método de estudio fue extremadamente efectivo y que seguramente le ayudará a obtener altas calificaciones en el futuro. Sin embargo, esta conclusión podría ser una falacia de regresión.
+
+La falacia de regresión ocurre cuando se asume erróneamente que un evento extremo o inusual en una serie de datos es indicativo de un cambio permanente o significativo en esa serie. En este caso, la alta calificación en el último examen podría haber sido simplemente una anomalía o un golpe de suerte.
+
+## Clase 14
