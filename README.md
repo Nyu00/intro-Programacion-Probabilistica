@@ -4,9 +4,9 @@
   <img src="./src/IPP-img.jpg" alt="Probabilistic Programming">
 </p>
 
-La programación probabilística a día de hoy tiene muchos usos, investigación científica, medicina, etc
+La programación probabilística a día de hoy tiene muchos usos, investigación científica, medicina, etc.
 
-Una de las grandes diferencias que existen entre la programación probabilística, es que la programacion probabilistica utilizamos modelos probabilisticos
+Una de las grandes diferencias que existen entre la programación probabilística, es que la programación probabilística utilizamos modelos probabilísticos
 
 - [Modelos probabilisticos](#)
     - [Regresión lineal bayesiana](#)
@@ -16,7 +16,7 @@ Una de las grandes diferencias que existen entre la programación probabilístic
     - [Procesos de Dirichlet](#)
 
 
-Este tipo de programacion es tan importante que  existen lenguajes especificos para programas de este tipo de indole al igual que librerias
+Este tipo de programación es tan importante que existen lenguajes específicos para programas de este tipo de índole, al igual que librerías
 
 - [Lenguajes probabilisticos](#)
     - [Stan](#)
@@ -25,66 +25,66 @@ Este tipo de programacion es tan importante que  existen lenguajes especificos p
     - [Anglican](#)
     - [WeebPPL](#)
 
-Uno de los mejores ejemplo que podemos usar para desarrolar nuestro pensamiento probabilistico es:
+Uno de los mejores ejemplos que podemos usar para desarrollar nuestro pensamiento probabilistico es:
 
-### Juan el Musico
+### Juan el Músico
 
-Juan es un musico que le gusta desvelarse, el rock and rol, el heavy metal, y esta de parranda de lunes a sabado
+Juan es un músico que le gusta desvelarse, el rock and roll, el heavy metal, y está de parranda de lunes a sábado
 
-Ahora, si te preguntaran hipoteticamente que es mas probable, ¿Que es mas probable que Juan sea un musico, o que sea musico y use drogas?
+Ahora, si te preguntaran hipotéticamente que es más probable, ¿Qué es más probable que Juan sea un músico, o que sea músico y use drogas?
 
 -----------------------------------------
 
-La mayoria de las personas hubieran dicho que Juan es musico y ademas usa drogas.
+La mayoría de las personas hubieran dicho que Juan es músico y además usa drogas.
 
 Pero algo que tenemos que empezar a entender es que cuando utilizamos la palabra [Y](#) hace que la probabilidad de que eso cierto, siempre será menor
 
 <img src="./src/musico-drogas.jpg" alt="Probabilidad de ser Muisco y usar drogas" style="width: 300px; height: auto;">
 
-En este ejemplo tenemos visualmente mostrando en un circulo azul TODOS los musicos y en un circulo verde los musicos que usan drogas
+En este ejemplo tenemos visualmente mostrando en un círculo azul TODOS los músicos y en un círculo verde los músicos que usan drogas
 
 <img src="./src/musico-drogas-pokemon.jpg" alt="Probabilidad de ser Muisco y usar drogas y ademas jugar pokemon" style="width: 300px; height: auto;">
 
-Ahora en ese ejemplo se muestra las personas que ademas de ser musicos y usar drogas tambien juegan pokemon
+Ahora en ese ejemplo se muestra las personas que además de ser músicos y usar drogas, también juegan Pokémon
 
-Un punto muy importante a tener en cuenta es que cada vez que le agregagos una condicional a algo siempre resa menor o menos probable
+Un punto muy importante a tener en cuenta es que cada vez que le agregamos una condicional a algo siempre será menor o menos probable
 
 ## Clase 2
 
 En esta clase hablaremos sobre la probabilidad condicional, Pero antes de continuar necesitamos entender un par de cosas
 
-Calcular la probabilidad de un evento no es nada mas que la cantidad de veces que ocurre un evento dividido por la cantidad de enventos posibles
+Calcular la probabilidad de un evento no es nada más que la cantidad de veces que ocurre un evento dividido por la cantidad de eventos posibles
 
 <img src="./src/calc-probabilidad.jpg" alt="DEventosx" style="width: 300px; height: auto;">
 
 
-Esto nos sirve para un tipo de probabilidad muy especifica como la que hay en los jugos de azar o lanzar una moneda al aire, esta se llama [Probabilidad independiente](#)  osea que los eventos nos estan relacionados unos con los otros
+Esto nos sirve para un tipo de probabilidad muy específica como la que hay en los jugos de azar o lanzar una moneda al aire, esta se llama [Probabilidad independiente,](#)  o sea que los eventos nos están relacionados los unos con los otros
 
-Asi es es la formula de probailidad independienente de lazar una moneda y qe salgan dos cruzes
+Así es la fórmula de probabilidad independiente de lazar una moneda y que salgan dos cruces
 
 <img src="./src/eventos-independientes.jpg" alt="Eventos independientes" style="width: 400px; height: auto;">
 
 
-Lo malo es que no suelen llegar a ser muy utiles
+Lo malo es que no suelen llegar a ser muy útiles
 
 Por eso utilizamos la [Probabilidad condicional](#)
 
-Formula para resolver probabilidades condicionales es:
+Fórmula para resolver probabilidades condicionales es:
 
 ### _P(b) = P(a) P(b|a) + P(¬a) P(b|¬a)_
 
-Con el ejemplo de Juan se puede demostrar como :
+Con el ejemplo de Juan se puede demostrar como:
 
 ### _P(Drogas) = P(Musico) P(Drogas|Musico) + P(¬Musico) P(Drogas|¬Musico)_
 
 ###### "|" se lee como dado que
-###### "¬" se lee no o negacion
+###### "¬" se lee no o negación
 
-Esta formula se leeria como :
+Esta fórmula se leería como:
 
-La probabilidad de que Juan use Drogas es igual a la probabilidad de que sea musico multiplicado por la probabilidad de use drogas dado que es musico mas la probabilida de que no sea musico multiplicado por la probabilidad que use drogas dado que no es musico
+La probabilidad de que Juan use Drogas es igual a la probabilidad de que sea músico multiplicado por la probabilidad de que use drogas, dado que es músico más la probabilidad de que no sea músico multiplicado por la probabilidad que use drogas, dado que no es músico
 
-Esta tipo de prbabilidad es utilizada unicamente cuando un evento depende de otro evento
+Este tipo de probabilidad es utilizada únicamente cuando un evento depende de otro evento
 
 ## Clase 3
 
@@ -105,33 +105,33 @@ El teorema de Bayes es especialmente útil cuando se trabaja con datos incomplet
 
 ## Clase 4
 
-Una vez entendido el Teorema de bayes llega el momento de entender y ponerle nombre a las secciones de nuestra formula
+Una vez entendido el Teorema de Bayes llega el momento de entender y ponerle nombre a las secciones de nuestra fórmula
 
 ### _P(a)_
 
-Prior: esta variable se pentiende como el conomiento previo que tenemos de ciertas situaciones o "Hipotesis" antes de recolectar evidencia
+Prior: esta variable se entiende como el conocimiento previo que tenemos de ciertas situaciones o "Hipótesis" antes de recolectar evidencia
 
 ### _P(a|b)_
 
-Posterior: esta variable la utilizamos despues de tener la evidencia de x como actualizamos nuestras creencias
+Posterior: esta variable la utilizamos después de tener la evidencia de x como actualizamos nuestras creencias
 
 ### _P(b) = P(a) P(b|a) + P(¬a) P(b|¬a)_
 
-Likelyhood: y esta formula la podemos entender como cual es la probabilidad de que esta probabilidad condicional se cumpla
+Likelyhood: y esta fórmula la podemos entender como cuál es la probabilidad de que esta probabilidad condicional se cumpla
 
 --------------------------------------------
 
-Tambien una manera mas facil de entender es tipo de formula un de una manera mas visual como un ecosograma
+Una manera más fácil de entender este tipo de fórmula es a través de una representación visual, usando a un ecosograma
 
 En este ecosograma podemos calcular la probabilidad de que un proyecto sea del estado, sabiendo que acabó fuera del plazo
 
 <img src="./src/ecosograma.jpg" alt="ecosograma ejempolo" style="width: 400px; height: auto;">
 
-##### Notas :
+##### Notas:
 
-La probabilidad no necesariamente es matematica de la aleatoriedad sino la matematica de las proporciones
+La probabilidad no necesariamente es matemática de la aleatoriedad, sino la matemática de las proporciones
 
-Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va suceder
+Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va a suceder
 
 ## Clase 5 
 
@@ -139,7 +139,7 @@ Es pensar cuantas veces yo espero ver algo dentro de la totalidad de lo que va s
 
 ![Análisis de síntomas](./src/cancer-sintomas.jpg)
 
-Tomando como base de apoyo los date que parecen el la imagen podemos hacer un calculo bastante preciso segun los datos de la imagen usando el teorema de bayes
+Tomando como base de apoyo los datos que parecen en la imagen podemos hacer un cálculo bastante preciso según los datos de la imagen usando el teorema de Bayes
 
 ```py
 
@@ -176,20 +176,20 @@ if __name__ == '__main__':
 There's a 9.09% chance that you have cancer since a have symptoms
 ```
 
-Tambien esto es una manera visual de mostrar lo:
+También esto es una manera visual de mostrar lo:
 ![Notaciones](./src/anotacionesTeoremadebayes.jpg)
 
 ## Clase 7
 
 ### Garbage in, garbage out (GIGO)
 
-GIGO es un principio que informatico que hace referecia que si le das un input "Basura" a tu programa, algoritmo, etc de dará como output Basura
+GIGO es un principio que informático que hace referencia que si le das un input "Basura" a tu programa, algoritmo, etc. se dará como output Basura
 
-Para poder envitar errores de 3° nivel como GIGO devemos tomar en considerancion estos puntos
+Para poder evitar errores de 3° nivel como GIGO debemos tomar en consideración estos puntos
 
--   La calidad de nuestros datos en igual de        fundamental que la precisión de nuestro cómputos
+-   La calidad de nuestros datos en igual de fundamental que la precisión de nuestro cómputo
 
--   Cuando los datos son errados, aunque tengamos un cómputo prístino nuestro resultados serán erróneos
+-   Cuando los datos son errados, aunque tengamos un cómputo prístino, nuestros resultados serán erróneos
 
 -   En pocas palabras: con datos errados las conclusiones serán erradas
 
@@ -197,19 +197,19 @@ Para poder envitar errores de 3° nivel como GIGO devemos tomar en considerancio
 
 ### Imagenes engañosas
 
-Infelizmente la probabilistica sí puede utizarse para mentir o para hacer que otras personas llegen a conclusiones que no son exactas, una de las maneras de egaño mas usadas son por medio de las imagenes 
+Infelizmente, la probabilística sí puede utilizarse para mentir o para hacer que otras personas lleguen a conclusiones que no son exactas, una de las maneras de engaño más usadas son por medio de las imágenes 
 
-como por ejemplo es este grafico de elecciones Venezolanas 
+como por ejemplo es este gráfico de elecciones Venezolanas 
 
 ![Maduro vs Capriles](./src/caprilesvsmaduro.jpg)
 
 Ya ese ejemplo es un bastante exagerado pero da para entender 
 
-Tambien existen otros ejemplo mas acercados a la realidad pero igualmente engañosos 
+También existen otros ejemplos más acercados a la realidad pero igualmente engañosos 
 
 ![Trump vs Hilary](./src/imagen-enga%C3%B1osa.jpg)
 
-Esto engaño ocurre cuando se juega con las escalas porque puede hacer que algunas personas llegen a conclusiones incorrectas
+Este engaño ocurre cuando se juega con las escalas porque puede hacer que algunas personas lleguen a conclusiones incorrectas
 
 #### Nota:
 
@@ -219,14 +219,14 @@ FIJATE EN LAS ESCALAS
 
 ### Cum Hoc Ergo Propter Hoc
 
-Del latin **"con esto, por lo tanto, a causa de esto"**
-hace referencia a la falacia de correlacion causalidad
+Del latín **"con esto, por lo tanto, a causa de esto"**
+hace referencia a la falacia de correlación causalidad
 
 Esta falacia se comete cuando se asume erróneamente que debido a que dos eventos ocurren juntos o se correlacionan, uno debe ser la causa del otro. Es un error lógico confundir la correlación con la causalidad.
 
-Como por ejemplo, supongamos que una persona tiene un **amuleto de la suerte** y a lo largo de un mes vive una serie de evento en su vida como; conseguir un **ascenso en el trabajo, ganar la loteria y encontrar el amor**.
+Como por ejemplo, supongamos que una persona tiene un **amuleto de la suerte** y a lo largo de un mes vive una serie de eventos en su vida como; conseguir un **ascenso en el trabajo, ganar la lotería y encontrar el amor**.
 
-La persona podria oensar erroneamente de todo eso ocurrio gracias al amuleto de la suerte y llegar a la conclusion que el **amuleto da buena fortuna**
+La persona podría pensar erróneamente de todo eso ocurrió gracias al amuleto de la suerte y llegar a la conclusión que el **amuleto da buena fortuna**
 
 Pero en realidad, es probable que haya otros factores involucrados en estos hechos, como **el esfuerzo, la habilidad, el azar o circunstancias favorables**
 
@@ -234,7 +234,7 @@ Pero en realidad, es probable que haya otros factores involucrados en estos hech
 
 ### Prejuicio en el muestreo
 
-también conocido como sesgo de muestreo puede distorsionar los resultados y conducir a conclusiones incorrectas o poco representativas.
+También conocido como sesgo de muestreo, puede distorsionar los resultados y conducir a conclusiones incorrectas o poco representativas.
 
 Imagina que se está realizando una encuesta política en un x país, las personas responsables de la encuesta hacen la encuesta únicamente en una zona urbana muy poblada, sin tomar en cuenta las poblaciones más rurales, como resultado la muestra será sesgada y tendrá una representación pobre tomando en consideración la población total
 
@@ -242,9 +242,9 @@ Imagina que se está realizando una encuesta política en un x país, las person
 
 ### La falacia del francotirador
 
-La falacia del francotirador es un error logivo que implica la sobreinterpretación de patrones aleatorios, se basa en un situacion hipotetica en la que un francofirador dispara totalmente aleatorio a una pared de la granja cuando se le acaban las balas va y pinta una diana donde hay un mayor cumulo de huecos de disparos
+La falacia del francotirador es un error lógico que implica la sobreinterpretación de patrones aleatorios, se basa en una situación hipotética en la que un francotirador dispara totalmente aleatorio a una pared de la granja cuando se le acaban las balas va y pinta una diana donde hay un mayor cúmulo de huecos de disparos
 
-Este es el ejemplo pero tambien podemos tomar otro por ejemplo como este :
+Este es un ejemplo, pero también podemos tomar otro por ejemplo como este:
 
 Imagina que alguien está buscando evidencia de poderes psíquicos y decide llevar a cabo una prueba. Invita a varias personas a participar en un experimento en el que deben intentar adivinar qué carta está boca abajo de un mazo. Después de varias rondas de intentos, una de las personas logra adivinar correctamente varias veces seguidas.
 
@@ -254,27 +254,27 @@ En resumen, esta falacia intenta busca una relación entre dos o más datos para
 
 ## Clase 12
 
-### Porcentajes conjusos
+### Porcentajes confusos
 
 <img src="./src/escuelas-porcentaje.jpg" alt="porcejate de escuelas" style="width: 300px; height: auto;">
 
-Tomando en consideración el porcentaje de rendimiento de cada una de las escuelas, cuál dirías que él la mejor escuela?
+Tomando en consideración el porcentaje de rendimiento de cada una de las escuelas, ¿cuál dirías que él la mejor escuela?
 
-La verdad tomar conclusiones con solo esos datos es batante dificil tomar una  decision certera por la falta de datos
+La verdad tomar conclusiones con solo esos datos es bátante difícil tomar una decisión certera por la falta de datos
 
 <img src="./src/matriz-escuela.jpg" alt="porcejate de escuelas" style="width: 300px; height: auto;">
 
-Si ahora nos percatamos los porcentajes estaban ciertos, pero con solo los porcentajes no se mostraba que en realidad cada escuela se habían subió 5 puntos incremento ni tampoco que cada escuela si promedio es muy diferentes entre sí
+Si ahora nos percatamos los porcentajes estaban ciertos, pero con solo los porcentajes no se mostraba que en realidad cada escuela se había subido 5 puntos incremento, ni tampoco que cada escuela si promedio es muy diferentes entre sí
 
-Conclusiones, no te dejes llevar por los porcentajes tan facilmente, se escéptico
+Conclusiones, no te dejes llevar por los porcentajes tan fácilmente, de escéptico
 
 ## Clase 13
 
 ### Falacia de regresión
 
--   Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión etc.
+-   Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión, etc.
 
--   Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
+-   Cuando algo fluctúa y se aplican medidas correctivas, se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
 
 Supongamos que un estudiante universitario está estudiando para un examen final. Durante el semestre, el estudiante ha estado obteniendo calificaciones bastante bajas en los exámenes parciales, pero después de mucho esfuerzo, logra obtener una calificación muy alta en el último examen.
 
@@ -282,7 +282,7 @@ El estudiante, al ver su alta calificación, llega a la conclusión de que su nu
 
 La falacia de regresión ocurre cuando se asume erróneamente que un evento extremo o inusual en una serie de datos es indicativo de un cambio permanente o significativo en esa serie. En este caso, la alta calificación en el último examen podría haber sido simplemente una anomalía o un golpe de suerte.
 
-Una cosa a tomar en cuenta es que estos no son los unicos errores de pensamiento probabilistico pero si son unos de lo mas comunes pero para enriqueser un poco estas notas aqui dejo unas cuantas mas :
+Una cosa a tomar en cuenta es que estos no son los únicos errores de pensamiento probabilístico, pero si son unos de lo más comunes, pero para enriquecer un poco estas notas aquí dejo unas cuantas más:
 
 -   Falacia del jugador: Es el error de creer que los resultados de eventos aleatorios están influenciados por eventos previos. Por ejemplo, creer que después de lanzar una moneda y obtener cara varias veces seguidas, la probabilidad de obtener cruz en el próximo lanzamiento es más alta. En realidad, cada lanzamiento es independiente y la probabilidad sigue siendo del 50% en cada lanzamiento.
 
@@ -293,3 +293,9 @@ Una cosa a tomar en cuenta es que estos no son los unicos errores de pensamiento
 -   Efecto del tamaño de la muestra: Es el error de ignorar el tamaño de la muestra al considerar las probabilidades. Si se toma una muestra pequeña, es más probable que los resultados sean menos representativos de la población en general. Es importante tener en cuenta el tamaño de la muestra al interpretar resultados y no sacar conclusiones basadas en muestras pequeñas.
 
 ## Clase 14
+
+### Introducción Machine Learning
+
+En palabras de Arthur Samuel, en 1959  el machine learning es "Es el campo de estudio que le da a las computadoras la habilidad de aprender sin ser explícitamente programadas"
+
+En otras palabras, machine learning, nosotros le damos datos, la computadora genera las funciones necesarias para convertir estos datos y nos va a dar un output como si nosotros hubiéramos programado la computadora directamente
