@@ -253,3 +253,19 @@ El investigador, al observar estos resultados aparentemente impresionantes, conc
 En resumen, esta falacia intenta busca una relación entre dos o más datos para buscar una correlación inexistente entre los mismos y disfrazar la información para generar conclusiones en el público erradas
 
 ## Clase 12
+
+### Porcentajes conjusos
+
+<img src="./src/escuelas-porcentaje.jpg" alt="porcejate de escuelas" style="width: 300px; height: auto;">
+
+Tomando en consideración el porcentaje de rendimiento de cada una de las escuelas, cuál dirías que él la mejor escuela?
+
+La verdad tomar conclusiones con solo esos datos es batante dificil tomar una  decision certera por la falta de datos
+
+<img src="./src/matriz-escuela.jpg" alt="porcejate de escuelas" style="width: 300px; height: auto;">
+
+Si ahora nos percatamos los porcentajes estaban ciertos, pero con solo los porcentajes no se mostraba que en realidad cada escuela se habían subió 5 puntos incremento ni tampoco que cada escuela si promedio es muy diferentes entre sí
+
+Conclusiones, no te dejes llevar por los porcentajes tan facilmente, se escéptico
+
+## Clase 13
