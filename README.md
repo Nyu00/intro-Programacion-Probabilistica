@@ -299,3 +299,7 @@ Una cosa a tomar en cuenta es que estos no son los únicos errores de pensamient
 En palabras de Arthur Samuel, en 1959  el machine learning es "Es el campo de estudio que le da a las computadoras la habilidad de aprender sin ser explícitamente programadas"
 
 En otras palabras, machine learning, nosotros le damos datos, la computadora genera las funciones necesarias para convertir estos datos y nos va a dar un output como si nosotros hubiéramos programado la computadora directamente
+
+<img src="./src/ExampleML.jpg" alt="MLimg">
+
+## Clase 15
