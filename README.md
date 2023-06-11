@@ -324,18 +324,34 @@ Poniendo como ejemplo diferenciador un árbol manzano y un árbol de cerezo o ta
 
 Manzano:
 
-Hojas: Las hojas del manzano suelen ser ovaladas o lanceoladas, con bordes dentados. Son de color verde brillante durante la primavera y el verano, y pueden adquirir tonos de color amarillo, rojo o naranja en otoño antes de caer.
+-   Hojas: Las hojas del manzano suelen ser ovaladas o lanceoladas, con bordes dentados. Son de color verde brillante durante la primavera y el verano, y pueden adquirir tonos de color amarillo, rojo o naranja en otoño antes de caer.
 
-Flores: Las flores del manzano son generalmente de color blanco o rosa claro, y se agrupan en racimos. Cada flor tiene cinco pétalos, y suelen florecer en primavera.
+-   Flores: Las flores del manzano son generalmente de color blanco o rosa claro, y se agrupan en racimos. Cada flor tiene cinco pétalos, y suelen florecer en primavera.
 
-Frutas: El manzano produce manzanas de diferentes tamaños, formas y colores, dependiendo de la variedad. Las manzanas pueden ser de color verde, amarillo, rojo o una combinación de estos, y varían en sabor y textura.
+-   Frutas: El manzano produce manzanas de diferentes tamaños, formas y colores, dependiendo de la variedad. Las manzanas pueden ser de color verde, amarillo, rojo o una combinación de estos, y varían en sabor y textura.
 
 
 Árbol de cerezo (sakura):
 
-Hojas: Las hojas del cerezo son generalmente ovaladas o en forma de punta de lanza. Son de color verde brillante durante la primavera y el verano, y adquieren tonos de amarillo o rojo antes de caer en otoño.
+-   Hojas: Las hojas del cerezo son generalmente ovaladas o en forma de punta de lanza. Son de color verde brillante durante la primavera y el verano, y adquieren tonos de amarillo o rojo antes de caer en otoño.
 
-Flores: Las flores del cerezo, conocidas como sakura, son uno de los aspectos más destacados de este árbol. Son de color rosa claro o blanco, y tienen cinco pétalos. Las flores de sakura suelen florecer en primavera y crean una vista espectacular en forma de racimos o nubes de flores.
+-   Flores: Las flores del cerezo, conocidas como sakura, son uno de los aspectos más destacados de este árbol. Son de color rosa claro o blanco, y tienen cinco pétalos. Las flores de sakura suelen florecer en primavera y crean una vista espectacular en forma de racimos o nubes de flores.
 
-Frutas: A diferencia del manzano, el cerezo no produce frutas comestibles de manera generalizada. Algunas variedades de cerezo pueden desarrollar pequeñas y ácidas frutas llamadas “cerezas de pájaro”, pero no se cultivan para consumo humano.
+-   Frutas: A diferencia del manzano, el cerezo no produce frutas comestibles de manera generalizada. Algunas variedades de cerezo pueden desarrollar pequeñas y ácidas frutas llamadas “cerezas de pájaro”, pero no se cultivan para consumo humano.
+
+## Clase 16
+
+### Métricas de distancia
+
+Las métricas de distancia de distancia nos permiten tener una forma de quantifiquar que tan cercanos o lejanos estan los vectores que nosotros estamos incorporando directamente al algoritmo
+
+Algunos ejemplos de métricas de distancia son:
+
+-   **Distancia euclidiana:** Es la distancia directa entre dos puntos, como medir la longitud de una línea recta que los une.
+-   **Distancia Manhattan:** Mide la distancia moviéndose solo en línea recta horizontal y vertical, sin diagonales. Es como calcular cuántas cuadras hay de un punto a otro en una ciudad.
+-   **Distancia de Hamming:** Se utiliza cuando se comparan secuencias de elementos, contando cuántos elementos son diferentes.
+-   **Distancia de Jaccard:** Mide la similitud entre conjuntos, calculando la proporción entre los elementos comunes y los totales.
+
+## Clase 17
+
 
