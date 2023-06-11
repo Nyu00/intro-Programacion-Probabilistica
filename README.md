@@ -303,3 +303,39 @@ En otras palabras, machine learning, nosotros le damos datos, la computadora gen
 <img src="./src/ExampleML.jpg" alt="MLimg">
 
 ## Clase 15
+
+### Feature vectors
+
+Los vectores de características son representaciones numéricas de atributos utilizadas en el aprendizaje automático. Codifican información relevante sobre los datos, como color, forma o textura. Permiten a los algoritmos analizar y comparar muestras de manera eficiente para tareas como clasificación y agrupamiento. Son fundamentales para entrenar modelos, extraer patrones y hacer predicciones precisas.
+
+##### Nota:
+Es ciertamente similar a POO :)
+
+En mi opinión, si quisiera modelar un vector que identifique árboles, tendría que tomar las características que puede cambiar dentro de un árbol que son:
+
+-Tamaño /Forma /Color de las hojas
+-Tamaño /Forma /Color de las ramas
+-Tamaño /Forma /Color del tronco
+-Sí da frutos
+
+Dentones con estos datos ya nos podríamos hacer a la idea de qué árbol estamos tratando o por lo menos hacer una hipótesis de qué árbol es más certera
+
+Poniendo como ejemplo diferenciador un árbol manzano y un árbol de cerezo o también conocido como sakura podemos diferenciar cada uno con los datos anteriormente mencionados
+
+Manzano:
+
+Hojas: Las hojas del manzano suelen ser ovaladas o lanceoladas, con bordes dentados. Son de color verde brillante durante la primavera y el verano, y pueden adquirir tonos de color amarillo, rojo o naranja en otoño antes de caer.
+
+Flores: Las flores del manzano son generalmente de color blanco o rosa claro, y se agrupan en racimos. Cada flor tiene cinco pétalos, y suelen florecer en primavera.
+
+Frutas: El manzano produce manzanas de diferentes tamaños, formas y colores, dependiendo de la variedad. Las manzanas pueden ser de color verde, amarillo, rojo o una combinación de estos, y varían en sabor y textura.
+
+
+Árbol de cerezo (sakura):
+
+Hojas: Las hojas del cerezo son generalmente ovaladas o en forma de punta de lanza. Son de color verde brillante durante la primavera y el verano, y adquieren tonos de amarillo o rojo antes de caer en otoño.
+
+Flores: Las flores del cerezo, conocidas como sakura, son uno de los aspectos más destacados de este árbol. Son de color rosa claro o blanco, y tienen cinco pétalos. Las flores de sakura suelen florecer en primavera y crean una vista espectacular en forma de racimos o nubes de flores.
+
+Frutas: A diferencia del manzano, el cerezo no produce frutas comestibles de manera generalizada. Algunas variedades de cerezo pueden desarrollar pequeñas y ácidas frutas llamadas “cerezas de pájaro”, pero no se cultivan para consumo humano.
+
