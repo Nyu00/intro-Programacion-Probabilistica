@@ -77,7 +77,7 @@ Con el ejemplo de Juan se puede demostrar como:
 
 ### _P(Drogas) = P(Musico) P(Drogas|Musico) + P(¬Musico) P(Drogas|¬Musico)_
 
-###### "|" se lee como dado que
+###### "|" se lee como dado que  
 ###### "¬" se lee no o negación
 
 Esta fórmula se leería como:
@@ -353,5 +353,23 @@ Algunos ejemplos de métricas de distancia son:
 -   **Distancia de Jaccard:** Mide la similitud entre conjuntos, calculando la proporción entre los elementos comunes y los totales.
 
 ## Clase 17
+
+Una de las formas mas comunes de clasificar los algoritmos de ML es en algoritmos de agrupamientos o **Clustering** y algoritmos de clasificacion o **Classificacion**
+
+#### Clustering
+
+Los algoritmos de clustering nos ayuda enterder la estructura de los datos cuando no tenemos o no necesitamos etiquetas para lo mismo
+
+Tambien nos permiten agrupar cada uno de nuestros datos en diferentes grupos que lo que llamamos **Clusters**
+
+Estos nos permiten entender que tan lejanos o cercanos (similares o desimilares) son los diferentes Data Points que analizamos 
+
+Los cluster son muy utlizados en el mundo de las redes sociales para cosas como los likes, temas de interes, quien es amigo de quien, en general mucha informacion valiosa cuando podemos clasificar a cada unos de los **Clusters** que viven dentro de nuestros datos
+
+<p align="center">
+  <img src="./src/Clustering.jpg" alt="Clustering"style="width: 400px; height: auto;">
+</p>
+
+## Clase 18
 
 
