@@ -372,4 +372,13 @@ Los cluster son muy utlizados en el mundo de las redes sociales para cosas como 
 
 ## Clase 18
 
+### Agrupamiento jerarquico
+
+El agrupamiento jerarquico es un algortimo lo que hace es tomar los puntos mas cercanos y agruparlos en un grupo que le llamaremos **Cluster** y luego comporar la distancia entre este **Cluster** y el punto mas cercano, agruparlo y repetir este proceso iterativamente
+
+<p align="center">
+  <img src="./src/Short-jerarquico.jpg" alt="Clustering"style="width: 400px; height: auto;">
+</p>
+
+
 
