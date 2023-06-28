@@ -376,9 +376,23 @@ Los cluster son muy utlizados en el mundo de las redes sociales para cosas como 
 
 El agrupamiento jerarquico es un algortimo lo que hace es tomar los puntos mas cercanos y agruparlos en un grupo que le llamaremos **Cluster** y luego comporar la distancia entre este **Cluster** y el punto mas cercano, agruparlo y repetir este proceso iterativamente
 
+La forma más sencilla de obtener la intuición al rededor de este algoritmo es viéndolo gráficamente
+
 <p align="center">
   <img src="./src/Short-jerarquico.jpg" alt="Clustering"style="width: 400px; height: auto;">
 </p>
+
+#### Algoritmo de agrupamiento jerárquico (segun yo): 
+
+- Tener los datos de cada uno de los puntos
+
+- Recorer cada uno de los puntos y generar una lista de las distancias entre cada punto
+
+- Tomar la dicha lista y verificar cual es la distancia mas pequeña
+
+- Unir a los dos punto vinculados a dicha distacia en un punto mas que este el medio de la distancia
+
+- Iteravamente unir los puntos de las distancias mas pequeñas hasta que quede solo un punto
 
 
 
