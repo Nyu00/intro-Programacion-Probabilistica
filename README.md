@@ -407,4 +407,101 @@ Ahora computamos el ward linkage usando dictancia enclidiana y visualizamos en u
 
 Aqui ahora hacemos lo mismo en scikit-learn. Entonces visualizamos en un grafico bidimencional
 
+![exampleW3](./src/schoolsW3.jpg)
+
+##### Explicacion del codigo
+
+Importamos los modulos necesarios
+
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import dendrogram, linkage
+from sklearn.cluster import AgglomerativeClustering
+```
+
+~ Numbpy es una libreria que trabaja con arrays y matices ne python
+
+~ Matplotlib es una libreria de gráficos a bajo nivel
+
+~ Scipy es una libreria que utiliza numbpy por debajo signifca scientific Python, este tiene funciones agreagadas que son comunmente usadas en numbpy y Data Science
+
+~ Scikit-learn es popularmente conocido como una libreria de machine learning
+
+Creamos array que asemejen dos variables en una base de datos
+
+nota: usamos 2 variables aqui, este método funcionará con cualquier numero de variables
+
+
+```py
+x = [4, 5, 10, 4, 3, 11, 14 , 6, 10, 12]
+y = [21, 19, 24, 17, 16, 25, 24, 22, 21, 21]
+```
+
+Convertimos los datos en conjunto de datos
+
+```py
+data = list(zip(x, y))
+print(data)
+```
+
+Resultado:
+
+```py
+[(4, 21), (5, 19), (10, 24), (4, 17), (3, 16), (11, 25), (14, 24), (6, 22), (10, 21), (12, 21)]
+```
+
+Calculamos el linkage entre los diferentes puntos, aqui usaremos una medida euclidiana y un ward linkage, que busca minimizar la varianza entre clusters
+
+```py
+linkage_data = linkage(data, method='ward', metric='euclidean')
+```
+
+por ultimo graficamos el resultado en un dendograma, este nos enseñará el agrupamiento jerarquico desde abajo (punto individuales) hasta arriba (Un cluster consistente a todos los data points)
+
+plt.show() muestra el dendrograma en lugar de los datos de enlace en bruto.
+
+```py
+dendrogram(linkage_data)
+plt.show()
+```
+
+Resultado:
+
+![Dendograma](./src/Dendograma.jpg)
+
+
+Scikit-learn usa el agrupamiento jerárquico con AgglomerativeClustering, 2 grupos, distancia euclidiana y enlace de Ward.
+
+```py
+hierarchical_cluster = AgglomerativeClustering(n_clusters=2, affinity='euclidean', linkage='ward')
+```
+
+.fit_predict calcula los clusters en nuestros datos con los parámetros definidos y el número elegido de clusters.
+
+```py
+labels = hierarchical_cluster.fit_predict(data) print(labels)
+```
+
+Resultado:
+
+```py
+[0 0 1 0 0 1 1 0 1 1]
+```
+
+Al graficar los datos y asignar colores a los puntos según las etiquetas asignadas por el método de agrupación jerárquica, podemos observar a qué cluster se asignó cada punto.
+
+```py
+plt.scatter(x, y, c=labels)
+plt.show()
+```
+
+Resultado:
+
+![finaljerarquico](./src/finaljerarquico.jpg)
+
+## Clase 19
+
+### K-means
+
 
