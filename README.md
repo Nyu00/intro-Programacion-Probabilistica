@@ -397,6 +397,14 @@ La forma más sencilla de obtener la intuición al rededor de este algoritmo es 
 
 Comenzamos tratando a cada uno de los puntos como su propio clúster, este proceso se repite hasta que se forme un gran clúster con todos los data Points
 
-En este algoritmo necesitamos decidir la distancia y el método linkage. Usaremos el método euclidiano
+En este algoritmo necesitamos decidir la distancia y el método linkage. Usaremos el método euclidiano y el método de linkage Ward, este minimiza la variaza entre clusters, de esta manera 
+
+![exampleW](./src/schoolsW1.jpg)
+
+Ahora computamos el ward linkage usando dictancia enclidiana y visualizamos en un dendograma
+
+![exampleW2](./src/schoolsW2.jpg)
+
+Aqui ahora hacemos lo mismo en scikit-learn. Entonces visualizamos en un grafico bidimencional
 
 
