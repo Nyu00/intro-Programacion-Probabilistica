@@ -300,7 +300,6 @@ En palabras de Arthur Samuel, en 1959  el machine learning es "Es el campo de es
 
 En otras palabras, machine learning, nosotros le damos datos, la computadora genera las funciones necesarias para convertir estos datos y nos va a dar un output como si nosotros hubiéramos programado la computadora directamente
 
-<img src="./src/ExampleML.jpg" alt="MLimg">
 
 ## Clase 15
 
@@ -394,5 +393,10 @@ La forma más sencilla de obtener la intuición al rededor de este algoritmo es 
 
 - Iteravamente unir los puntos de las distancias mas pequeñas hasta que quede solo un punto
 
+#### Como funciona:
+
+Comenzamos tratando a cada uno de los puntos como su propio clúster, este proceso se repite hasta que se forme un gran clúster con todos los data Points
+
+En este algoritmo necesitamos decidir la distancia y el método linkage. Usaremos el método euclidiano
 
 
