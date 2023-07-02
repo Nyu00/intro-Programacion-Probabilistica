@@ -512,3 +512,5 @@ Y asignanamos la media en el **Centroide** que es la media del grupo. Una vez qu
 
 ![k-means](src/k-means.gif)
 
+## Clase 20
+
