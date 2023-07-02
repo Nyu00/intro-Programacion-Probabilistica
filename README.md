@@ -504,4 +504,11 @@ Resultado:
 
 ### K-means
 
+K-means funciona al asignar puntos la azar y decir cuantos puntos vamos a analizar. Una vez hecho eso medimos las distancias entre todos lo puntos (Feature Vectors) a los que estamos analizando
+
+Cuando generemos el primer grupo volvemos a generar la media, por eso se llama "K-means" K: por el numero de grupos como una variable y Means porque en todo momento estamos recalculando la media, La desventaja de este algoritmo es que nosotros tenemos que definir el numero de grupos manualmente
+
+Y asignanamos la media en el **Centroide** que es la media del grupo. Una vez que reasingnamos el centroide volvemos a asignar las distancias entre cada uno de los puntos y repetimos el proceso hasta la convergencia
+
+![k-means](src/k-means.gif)
 
