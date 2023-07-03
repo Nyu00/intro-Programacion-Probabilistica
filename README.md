@@ -513,4 +513,17 @@ Y asignanamos la media en el **Centroide** que es la media del grupo. Una vez qu
 ![k-means](src/k-means.gif)
 
 ## Clase 20
+El agrupamiento consiste en dividir una población en grupos, de manera que los datos dentro de cada grupo sean más similares entre sí que con los datos de otros grupos.
+
+Se menciona un ejemplo de una startup de comercio electrónico que utiliza el agrupamiento para dividir a los clientes en grupos con similitudes relevantes, lo que permite diseñar estrategias de venta más efectivas.
+
+Se explican dos tipos de agrupamiento: el agrupamiento estricto, donde cada dato pertenece a un grupo específico, y el agrupamiento laxo, donde se asignan probabilidades a cada dato para determinar su pertenencia a un grupo.
+
+El texto destaca la importancia de definir claramente qué se entiende por similitud entre los datos, ya que esto ayuda a elegir el algoritmo adecuado para las necesidades específicas.
+
+Se mencionan cuatro aproximaciones para definir similitud: modelos conectivos, modelos de centroide, modelos de distribución y modelos de densidad. Cada uno de ellos tiene su enfoque y criterios para determinar la similitud entre los datos.
+
+Se enfatiza la importancia de probar diferentes modelos y comparar los resultados antes de tomar una decisión, ya que no hay un modelo único que funcione mejor en todos los casos. La experimentación y la comparación son fundamentales para obtener los mejores resultados en el agrupamiento de datos.
+
+## Clase 21
 
