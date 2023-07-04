@@ -527,3 +527,25 @@ Se enfatiza la importancia de probar diferentes modelos y comparar los resultado
 
 ## Clase 21
 
+### Introducción a la clasificación
+
+- Es el proceso mediante el cual se predice la clase de cierto dato.
+
+- Es un tipo de aprendizaje supervisado ya que para que funcione, se necesitan etiquetas con los datos (labels).
+
+- Se utiliza en muchos dominios, incluyendo la medicina, aprobación crediticia, reconocimiento de imágenes, vehículos autónomos, entre otros.
+
+- Sigue dos pasos: aprendizaje (creación del modelo) y clasificación.
+
+#### Diferencias de aprendizaje supervisado y no supervisado
+
+- El en aprendisaje no supervisados buscamos clusters y en el aprendisaje supervisado vamos a clasificar
+
+![Clasificacionvsclustering](./src/Clasificacionvsclustering.jpg)
+
+Es este ejemplo de clasificicacion se delimita con una linea recta pero vale la pena mencionar que tambien podemos utilizar lineas con curvas
+
+- En el aprendisaje no supervisado podemos partir
+del dataset miesntras en el aprendsaje supervisado necistamos primero hacer el modelo y depues realizar la clasificacion
+
+## Clase 22
