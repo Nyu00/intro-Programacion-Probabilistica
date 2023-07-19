@@ -549,3 +549,28 @@ Es este ejemplo de clasificicacion se delimita con una linea recta pero vale la 
 del dataset miesntras en el aprendsaje supervisado necistamos primero hacer el modelo y depues realizar la clasificacion
 
 ## Clase 22
+
+### K-nearest neighbors
+
+- Parte del supuesto de que ya tenemos un conjunto de datos clasificado.
+- Trata de encontrar los "vecinos más cercanos".
+- K se refiere a la cantidad de vecinos que se utilizarán para clasificar un ejemplo que aún no ha sido clasificado.
+- Es sencillo de implementar y tiene aplicaciones en medicina, finanzas, agricultura, etc.
+- Es computacionalmente muy costoso y no sirve con datos de alta
+dimensionalidad.
+
+![k-nimg](./src/k-nimg.jpg)
+
+En este ejemplo tenemos tres grupos, naranjas, azules y verdes, tenemos un K=5 porque estamos conparando 5 vecinos cercanos 
+
+Con respecto a esta clasificacion podemos determinar que el punto negro (X) pertenece al grupo naranja porque comparte 4 de 5 vecinos cercanos
+
+Ahora imaginate que en veces de compartir cuatro vecinos con el color naranja que hubiese pasado si compartiera 2 puntos con el grupo azul 2 puntos con el grupo azul y 2 puntos con el grupo verde.
+
+## Clase 23
+
+
+
+
+
+ 
