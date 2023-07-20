@@ -569,6 +569,53 @@ Ahora imaginate que en veces de compartir cuatro vecinos con el color naranja qu
 
 ## Clase 23
 
+### Otras tecnicas de clasificación
+
+La clasificación es un tipo de Machine Learning supervisado. Esto significa que para entrenar un modelo necesitamos un conjunto de datos (dataset) que ya tenga etiquetas (labels) para poder entrenar nuestros modelos.
+​
+La mejor forma de pensar en algoritmos de clasificación es pensar en el sombrero clasificador de Harry Potter. Cuando un nuevo alumno de Hogwarts entra a la escuela es necesario asignarlo/clasificarlo en una de las 4 casas. El sombrero obtiene los datos cuando se lo coloca el alumno y define cuál es el mejor match para su caso particular. Aquí estamos asumiendo que el sombrero es un algoritmo que ya ha sido entrenado y que los alumnos son nuevos data points que tienen que ser clasificados.
+​
+
+### Clasificadores lineales
+​
+Estos tipos de clasificadores se distinguen porque dividen el conjunto de datos con una línea (que puede ser multidimensional dependiendo de la cantidad de features que hemos utilizado para definir a nuestros datos). Esto genera áreas dentro de nuestro espacio de búsqueda para que cuando coloquemos un nuevo dato podamos clasificarlo fácilmente.
+​
+El problema con este tipo de modelos es que son pocos flexibles cuando el conjunto de datos no puede ser separado fácilmente con una simple línea; por ejemplo, cuando necesitáramos una figura más compleja para dividirlo (como un polígono).
+​
+
+### Regresión logística
+​
+Estos algoritmos se parecen mucho a los clasificadores lineales, con la diferencia de que no se divide simplemente con una línea, sino con un gradiente que determina la probabilidad de que un punto pertenezca a una categoría u otra. Es decir, la gradiente determina la probabilidad de que un punto sea asignado a una categoría y mientras un dato se aleje más en una dirección será mayor la probabilidad de que pertenezca a una categoría.
+​
+Imagina que estos algoritmos generan un área difusa en la que no estamos seguros de la clasificación y un área clara en la que tenemos un alto grado de certeza
+en cuanto a la categoría que pertenece un punto.
+​
+### Nearest neighbor
+​
+Los modelos que utilizan nearest neighbor se apoyan de los datos que ya han sido clasificados para determinar la distancia entre sus "vecinos más cercanos." El algoritmo más común que utiliza esta técnica se llama K-nearest neighbors y la K representa el número de vecinos que se utilizarán para clasificar los datos. En pocas palabras, se identifican los datos más cercanos y en el caso más sencillo se hace una votación simple (por ejemplo, 5 azules, 2 rojos, por lo tanto azul).
+​
+Una característica de estos modelos es que "dibujan" una línea que se asemeja a una costa para clasificar los datos. Mientras K sea más grande la "línea costera" se alisa y se asemeja más y más a una línea simple. Por lo tanto, la definición de K tiene un impacto importante en el desempeño de nuestro algoritmo de clasificación.
+​
+
+### Support Vector Machines
+​
+Estos algoritmos se diferencian por tener la habilidad de generar figuras complejas (polígonos) que pueden agrupar datos. Si la figura que tendríamos que dibujar para dividir nuestros datos es diferente a una línea (círculos, polígonos, etc.), entonces estos modelos son una buena opción.
+​
+
+### Árboles de decisión
+​
+Este tipo de algoritmos nos permiten generar una árbol que tenemos que recorrer y tomar decisiones cada vez que avanzamos en un nivel. Por ejemplo:
+​
+
+Si un feature en análisis es mayor a 5, dibuja la línea y=2x+3, de lo contrario dibuja y=-3x+5
+Si el feature siguiente es menor a 2, dibuja otra línea y así sucesivamente.
+​
+### Conclusiones
+​
+Recuerda que la decisión de qué algoritmo utilizar depende de la forma en la que tengas tus datos y la precisión que desees obtener (a cambio de excluir o incluir falsos positivos y negativos). Otro punto a considerar es que estos algoritmos deben ser entrenados con datos previos y la calidad de estos datos y del modelo subsecuente importan mucho para obtener la mejor clasificación.
+​
+Te invito a que consultes la documentación de Scikit-learn para que puedas profundizar en la forma en que funcionan estos algoritmos (y muchos otros) y puedas saber qué tipo de parámetros se pueden ajustar y cuál es la forma de los datos que esperan. Aquí está el vínculo a la documentación
+
 
 
 
